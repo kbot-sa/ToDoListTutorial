@@ -1,0 +1,12 @@
+Project: To Do List/ Master
+
+Key Concepts:
+
+- document.getElementById()
+- addEventListener()
+- e.target
+- appendChild()
+- createElement()
+- parentElement()
+- remove()
+- classList.add()
