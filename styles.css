@@ -1,0 +1,44 @@
+body {
+    height: 100vh;
+    background: url(img/todolistbackground.jpg) no-repeat center center/cover;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#add-task-container {
+    width: 350px;
+    padding: 20px 10px;
+    background-color: #fff;
+    box-shadow: 0 0 3px white;
+    border-radius: 20px;
+
+    display: flex;
+}
+
+input {
+    flex: 5;
+    margin-right: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#add-task {
+    flex: 1;
+    font-size: 20px;
+    padding: 5px;
+
+    color: green;
+    border: 2px solid green;
+    border-radius: 10px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: .3s;
+}
+
+#add-task:hover {
+    background-color: green;
+    color: white;
+}
